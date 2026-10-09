@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="زنیت: دستیار هوشمند مالی، دخل‌وخرج، طلا، سکه و ردیاب عادت‌ها">
+
+  <!-- iOS PWA Meta Tags -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="زنیت">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="icons/Icon-192.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="icons/Icon-512.png">
+
+  <!-- Mobile Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#0F0C20">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>زنیت - دستیار هوشمند مالی و زندگی</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    body {
+      background-color: #0F0C20;
+      color: #FFFFFF;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      user-select: none;
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+    }
+    .splash {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      background: radial-gradient(circle at center, #1F1742 0%, #0F0C20 100%);
+    }
+    .logo {
+      width: 96px;
+      height: 96px;
+      border-radius: 22px;
+      box-shadow: 0 10px 30px rgba(138, 43, 226, 0.4), 0 0 40px rgba(0, 191, 255, 0.3);
+      margin-bottom: 20px;
+      animation: pulse 2s infinite ease-in-out;
+    }
+    .title {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #00D2FF 0%, #9D50BB 50%, #FF416C 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 13px;
+      color: #8E8AAB;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.95; }
+      50% { transform: scale(1.05); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div id="splash" class="splash">
+    <img class="logo" src="icons/Icon-192.png" alt="Zenith Logo" />
+    <div class="title">زِنیــت</div>
+    <div class="subtitle">در حال راه‌اندازی دستیار هوشمند...</div>
+  </div>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

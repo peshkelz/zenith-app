@@ -1,0 +1,55 @@
+{
+  "name": "زنیت: هوشمند، مالی و زندگی",
+  "short_name": "زنیت",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0F0C20",
+  "theme_color": "#16132A",
+  "description": "دستیار هوشمند مدیریت مالی، دخل‌وخرج، نرخ لحظه‌ای طلا و دلار، محاسبات وام و ردیاب عادت‌ها",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ثبت تراکنش جدید",
+      "short_name": "تراکنش",
+      "description": "ثبت سریع هزینه یا درآمد",
+      "url": ".?tab=finance"
+    },
+    {
+      "name": "قیمت طلا و دلار",
+      "short_name": "طلا و ارز",
+      "description": "مشاهده نرخ روز و محاسبات طلا و وام",
+      "url": ".?tab=gold"
+    },
+    {
+      "name": "عادت‌ها و وظایف",
+      "short_name": "عادت‌ها",
+      "description": "ردیاب عادت‌ها و چک‌لیست روزانه",
+      "url": ".?tab=habits"
+    }
+  ]
+}
